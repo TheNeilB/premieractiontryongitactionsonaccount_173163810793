@@ -1,0 +1,8 @@
+name: issues details
+on: issues
+jobs:
+  lint-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: echo "${{ github.event }}
