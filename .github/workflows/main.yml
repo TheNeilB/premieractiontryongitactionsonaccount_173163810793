@@ -1,8 +1,8 @@
 name: issues details
 on: issues
 jobs:
-  lint-job:
+  issue-info:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Show issue infos
         run: echo "${{ toJSON(github.event) }}"
